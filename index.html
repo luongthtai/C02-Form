@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C02</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h2>MẪU THÔNG TIN SINH VIÊN </h2>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <form>
+                <div class="title">Thông tin cơ bản</div>
+                <div>
+                    <label for="name" >Họ và tên</label>
+                    <input type="text" id="name" name="Name">
+                </div>
+                <div>
+                    <label for="date">Ngày sinh</label>
+                    <input type="date" id="date" name="Date">
+                </div>
+                <div>
+                    <span>Giới tính</span>
+                    <input type="radio" id="men" name="gender" value="Nam">
+                    <label for="men"> Nam</label>
+                    <input type="radio" id="women" name="gender" value="Nữ">
+                    <label for="women"> Nữ</label>
+                    <input type="radio" id="other" name="gender" value="Khác">
+                    <label for="other"> Khác</label>
+                </div>
+                <div>
+                    <p>Tổ hợp xét tuyển</p>
+                    <input type="checkbox" id="math" value="Toán">
+                    <label for="math"> Toán</label> <br>
+                    <input type="checkbox" id="physics" value="Lý">
+                    <label for="physics"> Lý</label> <br>
+                    <input type="checkbox" id="chemistry" value="Hóa">
+                    <label for="chemistry"> Hóa</label> <br>
+                    <input type="checkbox" id="english" value="Anh">
+                    <label for="english"> Anh</label> <br>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <form>
+                <div class="title">Thông tin liên lạc</div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="Email">
+                </div>
+                <div>
+                    <label for="phoneNumber">Số điện thoại</label>
+                    <input type="text" id="phoneNumber" name="SDT">
+                </div>
+            </form>
+        </section>
+
+        <input type="submit" value="Gửi">
+
+    </main>
+</body>
+
+</html>
