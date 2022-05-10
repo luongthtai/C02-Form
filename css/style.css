@@ -12,11 +12,7 @@ main {
 
 section {
     border: 1px solid black;
-    margin-bottom: 24px;
-}
-
-form {
-    margin: 8px;
+    padding: 0px 8px;
     margin-bottom: 24px;
     position: relative;
 }
@@ -24,8 +20,8 @@ form {
 .title {
     margin: 0px;
     position: absolute;
-    top: -24px;
-    left: 4px;
+    top: -14px;
+    left: 10px;
     background-color: white;
 }
 

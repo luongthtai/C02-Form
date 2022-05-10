@@ -15,16 +15,16 @@
     </header>
     <hr>
     <main>
-        <section>
-            <form>
+        <form>
+            <section>
                 <div class="title">Thông tin cơ bản</div>
                 <div>
-                    <label for="name" >Họ và tên</label>
-                    <input type="text" id="name" name="Name">
+                    <label for="name">Họ và tên</label>
+                    <input type="text" id="name" name="Name" required>
                 </div>
                 <div>
                     <label for="date">Ngày sinh</label>
-                    <input type="date" id="date" name="Date">
+                    <input type="date" id="date" name="Date" required>
                 </div>
                 <div>
                     <span>Giới tính</span>
@@ -46,24 +46,22 @@
                     <input type="checkbox" id="english" value="Anh">
                     <label for="english"> Anh</label> <br>
                 </div>
-            </form>
-        </section>
+            </section>
 
-        <section>
-            <form>
+            <section>
                 <div class="title">Thông tin liên lạc</div>
                 <div>
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="Email">
+                    <input type="email" id="email" name="Email" required>
                 </div>
                 <div>
                     <label for="phoneNumber">Số điện thoại</label>
-                    <input type="text" id="phoneNumber" name="SDT">
+                    <input type="text" id="phoneNumber" name="SDT" required>
                 </div>
-            </form>
-        </section>
+            </section>
 
-        <input type="submit" value="Gửi">
+            <input type="submit" value="Gửi">
+        </form>
 
     </main>
 </body>
